@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Mottaka 1.0のユーザーガイド。リスト作成、予定、出発前・持ち帰り確認、Mottaka Plus、iCloudバックアップと復元の操作を説明します。">
+  <meta name="theme-color" content="#fff9f0">
+  <title>ユーザーガイド | Mottaka</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .guide h3 { margin: 1.8rem 0 .8rem; }
+    .guide ol, .guide ul { padding-left: 1.5rem; color: var(--muted); }
+    .guide li { margin-bottom: .7rem; }
+    .guide strong { color: var(--ink); }
+    .guide .callout { margin: 1.4rem 0; padding: 1.2rem; background: var(--white); border: 1px solid var(--line); border-left: 4px solid var(--orange); border-radius: 10px; }
+    .guide .callout p:last-child { margin-bottom: 0; }
+    .guide .warning { background: #fff0dc; }
+    .guide .badge { font-size: .8rem; color: var(--orange-dark); white-space: nowrap; }
+    .guide .table-scroll { overflow-x: auto; margin: 1rem 0; }
+    .guide table { width: 100%; border-collapse: collapse; background: var(--white); font-size: .92rem; }
+    .guide caption { text-align: left; font-weight: 750; margin-bottom: .5rem; }
+    .guide th, .guide td { border: 1px solid var(--line); padding: .75rem; text-align: left; vertical-align: top; }
+    .guide th { color: var(--ink); }
+    .guide .back-to-toc { font-size: .86rem; }
+    .guide figure { margin: 1.5rem 0; }
+    .guide figcaption { margin-top: .5rem; color: var(--muted); font-size: .86rem; }
+    .guide figure[hidden] { display: none; }
+    @media print { .site-header, .site-footer, .policy-toc, .back-to-toc { display: none; } .policy-layout { display: block; } .policy-section { break-inside: auto; } }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へ移動</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="index.html" aria-label="Mottaka サポートのトップへ">Mottaka<span class="brand-paw" aria-hidden="true">●</span></a>
+      <nav class="site-nav" aria-label="メインナビゲーション">
+        <a href="index.html">サポートトップ</a><a href="guide.html" aria-current="page">ユーザーガイド</a><a href="privacy.html">プライバシー</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="policy-page shell guide">
+    <div class="policy-intro">
+      <p class="eyebrow">Mottaka USER GUIDE</p>
+      <h1>ユーザーガイド</h1>
+      <p>いつもの持ち物をまとめて、出かける前と帰る前に確認。初めて使う方から、複数端末でバックアップを使う方まで、操作を順番にご案内します。</p>
+      <p class="policy-date">対象：Mottaka 1.0／Build 21 · 2026年10月18日更新</p>
+    </div>
+    <div class="policy-layout">
+      <nav class="policy-toc" id="toc" aria-label="ユーザーガイドの目次">
+        <p>このページの目次</p>
+        <a href="#overview">1. Mottakaとは</a><a href="#lists">2. リストと持ち物</a><a href="#calendar">3. カレンダー</a><a href="#departure">4. 出発前チェック</a><a href="#return">5. 持ち帰り確認</a><a href="#plus">6. Mottaka Plus</a><a href="#backup">7. バックアップと復元</a><a href="#faq">8. よくある質問</a>
+      </nav>
+      <div class="policy-content">
+        <section class="policy-section" id="overview" aria-labelledby="overview-title">
+          <h2 id="overview-title">1. Mottakaとは</h2>
+          <p>Mottakaは、旅行やお出かけの持ち物をリストで管理し、出発前と持ち帰り時の確認ができるアプリです。予定ごとにチェック状態が分かれているので、同じリストを繰り返し使えます。</p>
+          <ol><li>「リスト」で、旅行や用途ごとのリストと持ち物を作ります。</li><li>「カレンダー」で使う日付を選び、リストを登録します。</li><li>その日のリストを開き、「出発前」で準備を確認します。</li><li>帰る前に「持ち帰り確認」へ切り替え、結果を確認します。</li></ol>
+          <div class="table-scroll"><table><caption>無料で使える機能とPlusの機能</caption><thead><tr><th scope="col">区分</th><th scope="col">できること</th></tr></thead><tbody><tr><th scope="row">無料</th><td>リスト・持ち物の作成と編集、写真・アイコン、コピー・並び替え、予定へのリスト登録、出発前・持ち帰り確認、削除済み項目の復元、使い方の閲覧</td></tr><tr><th scope="row">Mottaka Plus</th><td>フォルダの新規作成・管理と予定への追加、壁紙や表示設定の変更、iCloud Driveへの手動・自動バックアップと新規のデータ復元</td></tr></tbody></table></div>
+          <div class="callout"><p><strong>データは端末ごとに保存されます。</strong>同じApple Accountで使っても、iPhoneとiPadのアプリ内データは自動同期されません。移し替えには<a href="#backup-sharing">バックアップと復元</a>を使います。</p></div>
+          <p>アプリ内の「設定」→「使い方」にも、9ページの簡易ガイドがあります。</p>
+        </section>
+        <section class="policy-section" id="lists" aria-labelledby="lists-title">
+          <h2 id="lists-title">2. リストと持ち物を作る</h2>
+          <h3>リストの新規作成・編集</h3>
+          <ol><li>「リスト」タブの「リストを追加」をタップします。</li><li>名前を入力し、必要に応じて「解説」・写真・アイコンを設定します。</li><li>「保存」をタップします。</li></ol>
+          <p>編集するときは、リスト行を左にスワイプして「編集」を選びます。リストを開いた画面の鉛筆アイコン「リストを編集」からも編集できます。「キャンセル」は編集を保存せず閉じます。</p>
+          <h3>持ち物の追加・編集</h3>
+          <ol><li>リストを開き、「持ち物を追加」→「新しく作成」を選びます。</li><li>持ち物の名前・「解説」などを入力し、「保存」をタップします。</li><li>編集は持ち物の名前の行をタップして行います。</li></ol>
+          <h3 id="photos">写真・アイコンとカメラ</h3>
+          <ol><li>編集画面で「写真を追加」または「写真を変更」を選びます。</li><li>「写真を撮る」で撮影するか、「写真を選ぶ」で写真ライブラリから選択します。</li><li>撮影では「この写真を使う」を選択します。撮り直すときは「撮り直す」を使います。</li><li>編集画面の「保存」で確定します。</li></ol>
+          <p>「アイコンを選ぶ」ではアイコンを選択できます。写真とアイコンは同時表示せず、最後に選択した方が保存されます。「写真を削除」は画像の設定を外す操作で、リストや持ち物自体の削除とは別です。対応環境では「写真を作る」が表示される場合もあります。</p>
+          <p>iPadは縦向き・左右横向きで撮影できます。白い正方形の枠は、一覧の正方形サムネイルに見える中央部分の目安です。<strong>保存写真そのものは枠で切り抜かず、全体を保持します。</strong>前面カメラへの切り替えはありません。「レンズ」が表示される端末では背面レンズを切り替えられます。</p>
+          <p>通常の一覧やチェック画面では写真をタップすると拡大できます。ピンチで拡大縮小し、拡大中はドラッグで移動、ダブルタップで倍率を切り替え、「×」で閉じます。カレンダーの「追加するリスト」の写真は選択用の縮小表示で、拡大しません。</p>
+          <!-- 画像追加時はhiddenを外し、imgと実画面に合うaltを追加する。個人情報のない画像を使用。 -->
+          <figure hidden data-screenshot-slot="list-and-camera"><figcaption>リスト編集と、白いガイド枠が見えるカメラ画面</figcaption></figure>
+          <h3>並び替えとコピー</h3>
+          <ol><li>リスト一覧または持ち物一覧で「並び替え」を選びます。</li><li>行の移動ハンドルをドラッグします。</li><li>「完了」で通常表示に戻ります。</li></ol>
+          <p>リストを右にスワイプして「複製」を選ぶと、「元の名前のコピー」という別リストが作られ、編集画面が開きます。現在の持ち物もコピーされますが、予定とチェック記録は複製されません。</p>
+          <ol><li>コピー先のリストで「持ち物を追加」→「他のリストからコピー」を選びます。</li><li>コピー元のリストを開き、「持ち物を選択」で必要な項目を選びます。複数のリストから選択できます。</li><li>「コピー元のリスト」へ戻り、上部の「コピー（選択数）」で確定します。</li></ol>
+          <p>コピーは別の持ち物として追加されます。後からコピー先を編集しても、コピー元の名前・メモは変わりません。</p>
+          <h3 id="trash">削除と復元</h3>
+          <ol><li>リストまたは持ち物の行を左にスワイプし、「削除」を選びます。</li><li>戻したい場合は「設定」→「削除済み」を開きます。</li><li>「リスト」または「持ち物」を選び、対象の「復元」をタップします。</li></ol>
+          <p>所属リストも削除済みの場合は、先にリストを復元してから持ち物を復元します。</p>
+          <div class="callout warning"><p><strong>「完全に削除」は元に戻せません。</strong>「削除済み」の行を左にスワイプすると選択できます。確認画面で影響する持ち物・予定・記録を必ず確認してください。日付が過去でも、完了して内容が固定された記録かどうかで影響が異なります。通常の復元で戻せる「削除」と混同しないでください。</p></div>
+          <p class="back-to-toc"><a href="#toc">目次へ戻る</a></p>
+        </section>
+        <section class="policy-section" id="calendar" aria-labelledby="calendar-title">
+          <h2 id="calendar-title">3. カレンダーに予定を登録する</h2>
+          <ol><li>「カレンダー」タブで使う日付をタップします。月は左右の矢印や横スワイプで移動できます。上部の年月をタップすると「年月を指定」から移動できます。</li><li>「持ち物予定」で「リストを追加」を選びます。</li><li>「追加するリスト」で対象をタップすると、その日へ登録されます。</li><li>別のリストも使う場合は「リストを追加」を繰り返します。</li></ol>
+          <p>同じ日付に同じリストを単独で重複登録することはできず、「登録済み」と表示されます。別の日付には同じリストを登録できます。チェック状態は予定ごとに独立しています。複数予定は「並び替え」で順番を変更できます。</p>
+          <p>日付は未完了の予定があるとオレンジ、すべて完了すると緑で表示されます。今日の表示とは区別してください。リスト行の「準備」「持帰」は、対象項目に対する確認数です。持帰の数には「持ち帰らなかった」も含みます。</p>
+          <p>予定のリストを開くと「持ち物」画面でチェックできます。元のリストを編集すると、内容がまだ固定されていない予定にも変更が反映されます。一度完了して内容が固定された記録には、後からの元リスト編集は反映されません。</p>
+          <div class="callout warning"><p><strong>予定の「削除」はチェック記録の削除です。</strong>「持ち物予定」の行を左にスワイプし「削除」を選びます。元のリスト・持ち物は残りますが、その予定とチェック記録は「削除済み」から復元できません。フォルダの登録を削除すると、その日のフォルダ内のリスト予定・チェック記録も削除されます。</p></div>
+          <figure hidden data-screenshot-slot="calendar"><figcaption>日付の状態表示、「持ち物予定」と「追加するリスト」</figcaption></figure>
+          <p class="back-to-toc"><a href="#toc">目次へ戻る</a></p>
+        </section>
+        <section class="policy-section" id="departure" aria-labelledby="departure-title">
+          <h2 id="departure-title">4. 出発前チェック</h2>
+          <ol><li>カレンダーの予定から対象のリストを開きます。</li><li>上部で「出発前」を選びます。</li><li>持ち物の名前・状態アイコン部分をタップし、必要な状態にします。写真部分は拡大表示の操作です。</li></ol>
+          <div class="table-scroll"><table><caption>タップするたびに循環する出発前の状態</caption><thead><tr><th scope="col">表示</th><th scope="col">意味</th></tr></thead><tbody><tr><th scope="row">灰色の○</th><td>未確認</td></tr><tr><th scope="row">緑のチェック</th><td>準備済み</td></tr><tr><th scope="row">オレンジの－</th><td>持っていかない</td></tr></tbody></table></div>
+          <p>もう一度タップすると灰色の○に戻ります。上部の「準備」の数には「準備済み」と「持っていかない」の両方が含まれます。</p>
+          <h3 id="exclude">今回の対象から外す</h3>
+          <ol><li>今回はチェック対象にしない項目を左へスワイプして「対象外」を選びます。</li><li>項目は「対象外の持ち物」へ移り、出発前・持ち帰り確認の対象数から外れます。</li><li>戻すには、対象外の項目の名前または「戻す」をタップします。メニューの「すべて対象に戻す」でも戻せます。</li></ol>
+          <div class="callout"><p><strong>「持っていかない」と「対象外」は別です。</strong>オレンジの－にするだけでは、持ち帰り確認の対象から外れません。今回まったく確認しない物は「対象外」にしてください。対象外にしても元のリストからは削除されず、他の日の予定には影響しません。</p></div>
+          <figure hidden data-screenshot-slot="departure"><figcaption>出発前の3状態と「対象外の持ち物」</figcaption></figure>
+          <p class="back-to-toc"><a href="#toc">目次へ戻る</a></p>
+        </section>
+        <section class="policy-section" id="return" aria-labelledby="return-title">
+          <h2 id="return-title">5. 持ち帰り確認（帰宅時チェック）</h2>
+          <ol><li>同じ予定のリストを開き、「持ち帰り確認」を選びます。</li><li>持ち物の名前・状態アイコン部分をタップします。</li><li>灰色の○「未確認」→緑のチェック「持ち帰り済み」→オレンジの－「持ち帰らなかった」→未確認の順に切り替わります。</li><li>必要に応じて「絞り込み」で「未確認」などを選び、残りを確認します。</li><li>すべて確認し、「戻るとこの予定を完了します」が表示されたら前の画面へ戻ります。</li></ol>
+          <p><strong>対象の持ち物が1個以上あり、すべてが「持ち帰り済み」または「持ち帰らなかった」なら、画面を離れると完了します。</strong>出発前が未確認でも完了できます。全項目が対象外の場合や、持ち物が0個の場合は完了しません。「持ち帰らなかった」は、消費・処分・置いてきたなどの結果を確認した状態です。</p>
+          <p>完了後も記録を開いて状態を変更できます。「未確認」に戻すなど、条件を満たさなくなると未完了になり、再び全件を確認して戻ると完了します。ただし、一度固定された記録の内容は、元リストの編集には追従しません。</p>
+          <h3>現地で購入した物を確認したいとき</h3>
+          <p>専用の「現地購入品」機能はありません。まだ内容が固定されていない予定では、元のリストに持ち物を追加して、その予定の持ち帰り確認に使えます。既に完了した記録には追加が反映されないため、新しいリスト・予定として管理してください。出発前の準備済みチェックを付ける必要はありません。</p>
+          <figure hidden data-screenshot-slot="return"><figcaption>持ち帰りの絞り込みと完了前の案内</figcaption></figure>
+          <p class="back-to-toc"><a href="#toc">目次へ戻る</a></p>
+        </section>
+        <section class="policy-section" id="plus" aria-labelledby="plus-title">
+          <h2 id="plus-title">6. Mottaka Plus <span class="badge">買い切り</span></h2>
+          <h3>購入と購入の復元</h3>
+          <ol><li>「設定」→「Mottaka Plus」を開きます。Plus限定機能を選んだときにも紹介画面が開きます。</li><li>表示される価格を確認し、「Mottaka Plusを購入」のボタンからApp Storeの案内に従います。価格は購入画面の表示をご確認ください。</li><li>確認が完了すると「Mottaka Plus 購入済み」になります。</li></ol>
+          <p>購入済みなのに機能が使えない場合は、購入に使用したApp Storeのアカウントを確認し、未購入表示のPlus画面で「購入を復元」を選びます。「購入状況を確認中…」の間は判定を待ってください。「価格を確認中…」から進まない場合は「商品情報を再確認」を使えます。</p>
+          <div class="callout"><p><strong>「購入を復元」はデータを戻す操作ではありません。</strong>Plusの購入権利を確認する操作です。リストや写真を戻すには<a href="#restore">バックアップから復元</a>を使います。</p></div>
+          <h3>フォルダで整理する <span class="badge">Plus限定</span></h3>
+          <ol><li>「フォルダ」タブで「フォルダを追加」を選び、名前・「解説」・色を入力して「保存」します。</li><li>フォルダを開き「リストを追加」から既存のリストを選びます。</li><li>「並び替え」で所属リストの順番を変更できます。行を左へスワイプして「外す」と、所属だけを解除します。</li><li>日付の「持ち物予定」→「フォルダを追加」から、まとめて予定へ登録できます。</li></ol>
+          <p>フォルダはリストの複製ではなく、既存リストをまとめるものです。同じリストを複数フォルダに入れられます。フォルダ内の編集は元のリストにも反映されます。フォルダの「複製」「編集」「削除」は一覧のスワイプ操作から選びます。フォルダを削除しても元のリスト・持ち物は残ります。削除済みリストのようなフォルダ復元画面はありません。カレンダー上のフォルダ予定を削除する操作とは別です。必要な予定・記録を確認してから整理してください。</p>
+          <h3>壁紙と表示設定 <span class="badge">Plus限定</span></h3>
+          <ol><li>「設定」→「壁紙」を開きます。</li><li>「写真を選ぶ」で壁紙を選び、プレビューを確認します。</li><li>「文字色」（自動・黒・白）、「壁紙の読みやすさ」（なし・薄く・標準）、「予定日の表示」を調整します。</li><li>「戻る」で設定画面へ戻ります。標準画像に戻すときは「標準壁紙に戻す」を使います。</li></ol>
+          <p>予定日の表示は「枠なし・半透明」「枠あり・半透明」「枠あり・不透明」です。初期設定は「枠なし・半透明」。ユーザー設定壁紙は端末の向きにかかわらず優先され、標準壁紙はiPad横向きだけ専用画像になります。</p>
+          <p>購入権利を確認できず無料状態になっても、既存のリスト・予定・画像・壁紙・バックアップが自動で消えることはありません。ただし、Plus限定の変更や新規操作は制限されます。</p>
+          <figure hidden data-screenshot-slot="plus"><figcaption>Plus購入画面、フォルダ、壁紙設定</figcaption></figure>
+          <p class="back-to-toc"><a href="#toc">目次へ戻る</a></p>
+        </section>
+        <section class="policy-section" id="backup" aria-labelledby="backup-title">
+          <h2 id="backup-title">7. バックアップと復元 <span class="badge">Plus限定</span></h2>
+          <p>iCloud Driveを利用できるApple Accountでサインインし、iCloud Driveを有効にしてください。「設定」→「iCloudバックアップ」から操作します。リスト・持ち物・予定・チェック状態・フォルダ・取り込んだ写真や壁紙・表示設定を保存します。Plusの購入権利と、この端末の自動バックアップON／OFF設定はバックアップから復元する対象ではありません。</p>
+          <h3>手動バックアップ</h3>
+          <ol><li>「今すぐバックアップ」をタップします。</li><li>処理が終わったら、作成日時とiCloud保存状態を確認します。</li><li>確認待ちが続く場合は「送信状態を確認」を使います。作成直後は約5秒間隔で最大約30秒の確認を行う場合がありますが、そこで確認が終わらなくてもiCloudの送信自体が中止されるわけではありません。</li></ol>
+          <h3>作成日時と確認待ちの見方</h3>
+          <ul><li><strong>最終バックアップ（作成日時）</strong>：確認済みのバックアップに含まれるデータの時点です。復元候補の日時と同じ基準です。</li><li><strong>iCloud保存確認済み</strong>：必要なファイルの保存状態を確認できています。</li><li><strong>確認待ちバックアップ（作成日時）</strong>：まだ送信確認が終わっていない世代です。「最終バックアップ」と別に表示されます。</li><li><strong>現在の保存状態を確認できません／送信状態を確認できません</strong>：現在の状態を確認できていません。過去の日時表示だけで最新データが保存済みと判断しないでください。</li></ul>
+          <p>10月15日作成のバックアップを10月18日に送信確認しても、作成日時は10月15日のままです。10月18日の編集内容を含むという意味ではありません。</p>
+          <h3>自動バックアップ</h3>
+          <ol><li>主に使う端末で「自動バックアップ」をONにします。<strong>新規インストール時はOFFです。</strong>既存の設定は維持されます。</li><li>内容に変更があり、本端末の前回作成から24時間以上経過すると、起動・アプリ復帰などの次の実行機会に作成されます。本端末の作成履歴がない場合は、条件確認後に初回の作成が可能です。</li><li>「次回の自動バックアップが可能になる日時」は目安です。毎日その時刻に実行する予約ではありません。</li></ol>
+          <p>送信確認の遅延によって、確認完了後にさらに24時間待ち直すことはありません。ただし未確認・読込不能なバックアップがある場合は、安全のため新規自動作成を保留します。同じ内容を保存し直すこともありません。</p>
+          <h3 id="backup-sharing">iPhone・iPadで使うとき</h3>
+          <div class="callout warning"><p><strong>自動バックアップは、主に使用する1台だけでONにしてください。</strong>設定は端末ごとに独立しています。同じApple Accountで同じiCloud Driveを使っても、アプリ内データは自動同期されません。2台の編集内容を後から自動で結合する機能もありません。</p></div>
+          <ol><li>まず、受け取る端末に残したいデータがないか確認します。必要なら、その端末の内容を手動バックアップし、保存状態と作成日時を確認します。</li><li>次に主端末で送りたいデータをバックアップし、保存確認済みになったことと作成日時を確認します。</li><li>受け取る端末で、主端末から送ったバックアップの日時と一致する候補を確認して復元します。目的の候補を確認できない場合は、復元を進めないでください。送り元の端末は置き換わりません。</li></ol>
+          <p>復元候補には現在、作成元端末名は表示されません。同日の複数世代を1件にまとめて表示する場合もあるため、必要なバックアップが候補にあるか必ず確認してください。同日複数世代が存在する場合は、誤削除を避けるため自動整理を見送ります。そのため保存容量が増えることがあります。「必ず直近7日分だけになる」「両端末の履歴を必ず選べる」という保証ではありません。同日中に新しいバックアップを作ると、以前の候補が一覧に出なくなる場合があります。目的の候補が見つからない場合は、ファイルを手動削除せず<a href="index.html#contact">お問い合わせ</a>ください。</p>
+          <h3 id="restore">バックアップから復元</h3>
+          <div class="callout warning"><p><strong>復元は追加ではなく、復元先端末の現在のデータを置き換える操作です。差分マージはしません。</strong>バックアップ作成後の変更は、そのバックアップには含まれません。現在の内容を残したい場合は、先に手動バックアップを作り、保存状態と復元候補を確認してください。アプリ内部の安全退避を、自分でいつでも選んで戻せるバックアップの代わりにしないでください。</p></div>
+          <ol><li>「バックアップから復元」を開き、作成日時を確認します。</li><li>対象の「復元する」を選びます。「現在確認できません」の候補は「再確認」を使います。候補が更新されないときは、一度戻って開き直してください。</li><li>確認画面を読み、復元を開始します。<strong>開始後はキャンセルできません。</strong></li><li>検証・切り替えが完了するまで待ちます。失敗時はアプリの案内に従ってください。独自にファイルを削除したり、復元中にアプリを削除したりしないでください。</li></ol>
+          <p>復元時は全ファイルの完全性を確認し、現在データを退避してから切り替えます。ただし、候補が表示されるだけで復元成功を保証するものではありません。「このバックアップは使用できません」やアップデートを求める表示の候補は、そのまま復元できません。購入情報の確認には「購入を復元」を使用します。</p>
+          <figure hidden data-screenshot-slot="backup"><figcaption>確認済み・確認待ちの日時表示と復元確認画面</figcaption></figure>
+          <p class="back-to-toc"><a href="#toc">目次へ戻る</a></p>
+        </section>
+        <section class="policy-section" id="faq" aria-labelledby="faq-title">
+          <h2 id="faq-title">8. よくある質問</h2>
+          <h3>リストが見つかりません</h3><p>まず「リスト」タブと「設定」→「削除済み」を確認します。カレンダーに登録されているかどうかと、元のリストが残っているかは別です。別端末で作成したリストは自動では届きません。</p>
+          <h3>削除したリスト・持ち物を戻したい</h3><p><a href="#trash">削除済み項目の復元</a>を行います。所属リストも削除済みなら、先にリストを戻します。完全削除や予定の削除はこの画面から戻せません。</p>
+          <h3>Plusが利用できません</h3><p>購入に使ったApp Storeのアカウントと通信状態を確認し、未購入表示のPlus画面で「購入を復元」を試します。データのバックアップ復元では購入権利を戻せません。解消しない場合は、表示メッセージとVersion／Build番号を添えて<a href="index.html#contact">お問い合わせ</a>ください。</p>
+          <h3>iPhoneとiPadで同じデータを使いたい</h3><p><a href="#backup-sharing">主端末からバックアップして、もう一方へ復元</a>します。受け取る側の現在データは置き換わります。両端末で別々に編集しても、差分の自動統合はできません。</p>
+          <h3>バックアップがすぐに実行されません</h3><p>自動設定がONか、変更があるか、本端末の前回作成から24時間経っているかを確認します。未確認・読込不能な世代やiCloudの通信状態によって保留されます。急ぐ場合は「今すぐバックアップ」を使い、日時だけでなく送信状態まで確認してください。</p>
+          <h3>準備が全部済んだのに、日付が完了になりません</h3><p>完了判定は<a href="#return">持ち帰り確認</a>です。対象が1個以上あり、全件を「持ち帰り済み」または「持ち帰らなかった」にして画面を離れたか確認してください。</p>
+          <h3>不具合を相談したい</h3><p>「設定」右上のアプリ情報でVersion／Build番号を確認し、端末名・操作手順・表示されたメッセージを添えてご連絡ください。パスワード・決済情報・個人情報を含む画面は送らないでください。</p>
+          <p class="back-to-toc"><a href="#toc">目次へ戻る</a></p>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer"><div class="shell footer-inner"><p><strong>Mottaka</strong><span>持ち物の準備と持ち帰りを、ひとつの場所で。</span></p><nav aria-label="フッターナビゲーション"><a href="index.html">サポートトップ</a><a href="privacy.html">プライバシーポリシー</a><a href="mailto:mottaka.support@gmail.com">お問い合わせ</a></nav></div></footer>
+</body>
+</html>
