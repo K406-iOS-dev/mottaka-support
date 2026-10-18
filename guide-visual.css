@@ -1,0 +1,33 @@
+/* Visual manual styles are scoped to this page; support/privacy styles stay intact. */
+.guide .policy-intro h1 { font-size: clamp(2.4rem, 6vw, 4.8rem); line-height: 1.15; }
+.image-note, .capture-note { font-size: .88rem; color: var(--muted); }
+.image-note { max-width: 52rem; margin-bottom: 2.5rem; }
+.guide .section-lead { margin-top: 1rem; font-size: 1.05rem; }
+.guide .visual-steps { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.2rem; margin: 1.5rem 0; align-items: start; }
+.guide figure.visual-step { margin: 0; min-width: 0; padding: 1rem; border: 1px solid var(--line); border-radius: 18px; background: var(--white); }
+.guide .step-heading { display: flex; align-items: center; gap: .65rem; margin-bottom: 1rem; }
+.guide .step-heading h3 { margin: 0; font-size: 1rem; }
+.guide .step-heading .step-number { display: grid; place-items: center; flex: 0 0 30px; width: 30px; height: 30px; border-radius: 50%; font-size: .85rem; background: var(--orange-dark); color: white; }
+.guide-zoom { display: block; padding: .5rem; border: 1px solid var(--line); border-radius: 12px; background: var(--soft); cursor: zoom-in; }
+.guide-zoom img { width: 100%; height: auto; max-height: 560px; object-fit: contain; border-radius: 7px; }
+.guide .visual-step figcaption { margin-top: 1rem; }
+.guide .visual-step figcaption p { margin: .5rem 0; color: var(--ink); font-size: .94rem; }
+.screen-label, .feature-tag { display: inline-block; font-size: .75rem; font-weight: 750; color: var(--orange-dark); background: var(--soft); border-radius: 6px; padding: .15rem .5rem; }
+.guide .visual-step figcaption p:last-child { margin-bottom: 0; }
+.guide .visual-steps.single { grid-template-columns: minmax(0, 390px); }
+.guide .guide-details { margin: 1.5rem 0; border: 1px solid var(--line); border-radius: 12px; background: var(--white); }
+.guide-details > summary { padding: 1rem 1.2rem; cursor: pointer; font-weight: 750; color: var(--orange-dark); }
+.details-body { padding: 0 1.2rem 1.2rem; }
+.guide .backup-flow { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .75rem; padding-left: 1.5rem; }
+.guide .backup-flow li { padding: .75rem; background: var(--soft); border-radius: 10px; }
+.guide .backup-flow p { margin: .5rem 0 0; font-size: .9rem; }
+#guide-lightbox { width: min(96vw, 1280px); max-width: 96vw; max-height: 94dvh; padding: 0; border: 1px solid var(--line); border-radius: 14px; background: var(--paper); color: var(--ink); }
+#guide-lightbox::backdrop { background: rgb(20 16 12 / 82%); }
+.lightbox-close { position: sticky; top: 0; display: block; margin: .7rem .7rem .7rem auto; padding: .7rem 1rem; border: 1px solid var(--line); border-radius: 10px; background: white; color: var(--ink); font: inherit; cursor: pointer; z-index: 1; }
+.lightbox-scroll { padding: 0 1rem 1rem; overflow: auto; }
+.lightbox-scroll img { width: auto; max-width: 100%; margin: auto; }
+.lightbox-scroll p { max-width: 50rem; margin: 1rem auto 0; font-size: .9rem; }
+@media (max-width: 640px) { .guide .visual-steps, .guide .visual-steps.single { grid-template-columns: minmax(0, 1fr); } .guide-zoom img { max-height: 660px; } .guide .backup-flow { grid-template-columns: minmax(0, 1fr); } }
+@media print { .guide-details > .details-body { display: block; } .guide-details { break-inside: auto; } .guide-zoom { border: 0; } #guide-lightbox { display: none; } }
+
+@media (min-width: 1200px) { .guide .visual-steps.sequence { grid-template-columns: repeat(3, minmax(0, 1fr)); } }

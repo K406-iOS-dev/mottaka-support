@@ -1,0 +1,149 @@
+[
+  {
+    "asset": "lists-phone",
+    "source": "screenshot/appstore-v2/02-lists.png",
+    "source_sha256": "be20acf84680c976a327932658f04a98160d7367852144d50124482594c498ba",
+    "original_size": [
+      1206,
+      2622
+    ],
+    "processing": "WebP変換・縦横比を保持した縮小のみ。切り抜き・画像内注釈・画面内容の改変なし。"
+  },
+  {
+    "asset": "calendar-phone",
+    "source": "screenshot/appstore-v2/01-calendar.png",
+    "source_sha256": "077db797e43dd401d39a302161d6a1e3fef94a7c3fe495060aea5d0ded7b3aa8",
+    "original_size": [
+      1206,
+      2622
+    ],
+    "processing": "WebP変換・縦横比を保持した縮小のみ。切り抜き・画像内注釈・画面内容の改変なし。"
+  },
+  {
+    "asset": "departure-phone",
+    "source": "screenshot/appstore-v2/03-departure-check-final.png",
+    "source_sha256": "50fe527ae4206fb60ac86514d3e82be4b3b61f4b03377cdcb339ae88048e2865",
+    "original_size": [
+      1206,
+      2622
+    ],
+    "processing": "WebP変換・縦横比を保持した縮小のみ。切り抜き・画像内注釈・画面内容の改変なし。"
+  },
+  {
+    "asset": "return-phone",
+    "source": "screenshot/appstore-v2/04-return-check-final.png",
+    "source_sha256": "d847463cd8fd41a7d6b0c341647b31bddcb653f5e4657abf77b694fab0541acb",
+    "original_size": [
+      1206,
+      2622
+    ],
+    "processing": "WebP変換・縦横比を保持した縮小のみ。切り抜き・画像内注釈・画面内容の改変なし。"
+  },
+  {
+    "asset": "plus-phone",
+    "source": "screenshot/appstore-v2/05-mottaka-plus.png",
+    "source_sha256": "23e3549e7decb024ed8279379608173e078197116d4575659ed7cb74242b5c4e",
+    "original_size": [
+      1206,
+      2622
+    ],
+    "processing": "WebP変換・縦横比を保持した縮小のみ。切り抜き・画像内注釈・画面内容の改変なし。"
+  },
+  {
+    "asset": "lists-ipad",
+    "source": "screenshot/appstore-ipad-final/02-lists.png",
+    "source_sha256": "19505f9c3f25a97162e35a00d66ff4049a519d785f517b3bf5f1da385b1148d6",
+    "original_size": [
+      2752,
+      2064
+    ],
+    "processing": "WebP変換・縦横比を保持した縮小のみ。切り抜き・画像内注釈・画面内容の改変なし。"
+  },
+  {
+    "asset": "calendar-ipad",
+    "source": "screenshot/appstore-ipad-final/01-calendar.png",
+    "source_sha256": "a043379b8cfeaa1f2d70e1707b49583cbffbcf18abe524d7723bd008ea5d6e89",
+    "original_size": [
+      2752,
+      2064
+    ],
+    "processing": "WebP変換・縦横比を保持した縮小のみ。切り抜き・画像内注釈・画面内容の改変なし。"
+  },
+  {
+    "asset": "01-new-list-form",
+    "source": "screenshot/mottaka-guide-captures/01-new-list-form.png",
+    "source_sha256": "95f5e007f0ba1d5e2ce143b884f9df159ebdc1b18a5d030765d541e1920c8c0e",
+    "original_size": [
+      941,
+      2048
+    ],
+    "processing": "WebP変換・縦横比を保持した縮小のみ。元PNG変更なし。切り抜き・UI合成・画面内容の改変なし。",
+    "capture_origin": "ユーザー撮影・提供画像"
+  },
+  {
+    "asset": "02-day-before",
+    "source": "screenshot/mottaka-guide-captures/02-day-before.png",
+    "source_sha256": "597439a8f67a700ce66c8b77a4957ed3f526f71f58b8c2724926ef4c9b2078b1",
+    "original_size": [
+      941,
+      2048
+    ],
+    "processing": "WebP変換・縦横比を保持した縮小のみ。元PNG変更なし。切り抜き・UI合成・画面内容の改変なし。",
+    "capture_origin": "ユーザー撮影・提供画像"
+  },
+  {
+    "asset": "03-add-list-picker",
+    "source": "screenshot/mottaka-guide-captures/03-add-list-picker.png",
+    "source_sha256": "98c111d254bdc50c664c026cdd50cda2dd430d1de4700a59a04f1341fe7490de",
+    "original_size": [
+      941,
+      2048
+    ],
+    "processing": "WebP変換・縦横比を保持した縮小のみ。元PNG変更なし。切り抜き・UI合成・画面内容の改変なし。",
+    "capture_origin": "ユーザー撮影・提供画像"
+  },
+  {
+    "asset": "04-day-after",
+    "source": "screenshot/mottaka-guide-captures/04-day-after.png",
+    "source_sha256": "d41f2280d0614f6884a4e6eeb0de4c454dd28e0efc37a56c719f8ae775256e3f",
+    "original_size": [
+      941,
+      2048
+    ],
+    "processing": "WebP変換・縦横比を保持した縮小のみ。元PNG変更なし。切り抜き・UI合成・画面内容の改変なし。",
+    "capture_origin": "ユーザー撮影・提供画像"
+  },
+  {
+    "asset": "05-exclude-before",
+    "source": "screenshot/mottaka-guide-captures/05-exclude-before.png",
+    "source_sha256": "31ccea702822d69294c2f207b0c88fe49bb14d5966e792e892943dda64854cdd",
+    "original_size": [
+      941,
+      2048
+    ],
+    "processing": "WebP変換・縦横比を保持した縮小のみ。元PNG変更なし。切り抜き・UI合成・画面内容の改変なし。",
+    "capture_origin": "ユーザー撮影・提供画像"
+  },
+  {
+    "asset": "06-exclude-swipe",
+    "source": "screenshot/mottaka-guide-captures/06-exclude-swipe.png",
+    "source_sha256": "3e9edecd923c6420517aa038d99644ddce56e232fd5852626f6d41b071696503",
+    "original_size": [
+      941,
+      2048
+    ],
+    "processing": "WebP変換・縦横比を保持した縮小のみ。元PNG変更なし。切り抜き・UI合成・画面内容の改変なし。",
+    "capture_origin": "ユーザー撮影・提供画像"
+  },
+  {
+    "asset": "07-exclude-after",
+    "source": "screenshot/mottaka-guide-captures/07-exclude-after.png",
+    "source_sha256": "4df0346fb21629075235eabe086af45dc52663b2335e042231c4ee42b99bedf6",
+    "original_size": [
+      941,
+      2048
+    ],
+    "processing": "WebP変換・縦横比を保持した縮小のみ。元PNG変更なし。切り抜き・UI合成・画面内容の改変なし。",
+    "capture_origin": "ユーザー撮影・提供画像"
+  }
+]
