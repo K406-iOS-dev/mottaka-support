@@ -145,5 +145,60 @@
     ],
     "processing": "WebP変換・縦横比を保持した縮小のみ。元PNG変更なし。切り抜き・UI合成・画面内容の改変なし。",
     "capture_origin": "ユーザー撮影・提供画像"
+  },
+  {
+    "asset": "guide-backup-settings",
+    "source": "screenshot/guide/guide-backup-settings.png",
+    "source_sha256": "2d5984f734e425b9a47a76bcb811defbbbddad12c1da2e1db193a3e76c66aa87",
+    "original_size": [
+      1206,
+      2622
+    ],
+    "processing": "WebP縮小・圧縮のみ。元PNG・画面内容・縦横比を保持。",
+    "capture_origin": "ユーザーによるiPhone実機撮影"
+  },
+  {
+    "asset": "guide-item-create",
+    "source": "screenshot/guide/guide-item-create.png",
+    "source_sha256": "cfd2d4b7fccb90f1151355a468673869523dd46af22d41c8fde4f555dd2eb65b",
+    "original_size": [
+      1206,
+      2622
+    ],
+    "processing": "WebP縮小・圧縮のみ。元PNG・画面内容・縦横比を保持。",
+    "capture_origin": "ユーザーによるiPhone実機撮影"
+  },
+  {
+    "asset": "guide-plus-folder",
+    "source": "screenshot/guide/guide-plus-folder.png",
+    "source_sha256": "cd98f8702da923ad02d809e58ecebeefba48ac36f791439580c1a5bf3b45b9fc",
+    "original_size": [
+      1206,
+      2622
+    ],
+    "processing": "WebP縮小・圧縮のみ。元PNG・画面内容・縦横比を保持。",
+    "capture_origin": "ユーザーによるiPhone実機撮影"
+  },
+  {
+    "asset": "guide-plus-wallpaper",
+    "source": "screenshot/guide/guide-plus-wallpaper.png",
+    "source_sha256": "8830ce065d573d230e8a8037de892cb8ff90932c6dbc82dd54989c750f882925",
+    "original_size": [
+      1206,
+      2622
+    ],
+    "processing": "WebP縮小・圧縮のみ。元PNG・画面内容・縦横比を保持。",
+    "capture_origin": "ユーザーによるiPhone実機撮影"
+  },
+  {
+    "asset": "guide-restore-confirm",
+    "source": "screenshot/guide/guide-restore-confirm.png",
+    "source_sha256": "5539b3fccffec5a608fa35b15072f29ebebba1ac0be2cecd37a5e63f622efd17",
+    "original_size": [
+      1206,
+      2622
+    ],
+    "processing": "WebP縮小・圧縮のみ。元PNG・画面内容・縦横比を保持。",
+    "capture_origin": "ユーザーによるiPhone実機撮影"
   }
 ]
