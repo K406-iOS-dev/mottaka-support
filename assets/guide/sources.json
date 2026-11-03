@@ -21,23 +21,47 @@
   },
   {
     "asset": "departure-phone",
-    "source": "screenshot/appstore-v2/03-departure-check-final.png",
-    "source_sha256": "50fe527ae4206fb60ac86514d3e82be4b3b61f4b03377cdcb339ae88048e2865",
+    "source": "screenshot/mottaka-guide-captures/20261103/3 出発前チェック画面.png",
+    "source_sha256": "84b4c776680aa9e2304c6990e19c17956fdf10d7f7a5188e3c17d186978c2bd3",
     "original_size": [
-      1206,
-      2622
+      1216,
+      2640
     ],
-    "processing": "WebP変換・縦横比を保持した縮小のみ。切り抜き・画像内注釈・画面内容の改変なし。"
+    "processing": "WebP変換・縦横比を保持した縮小のみ。切り抜き・合成・画像内改変なし。",
+    "capture": {
+      "source": "ユーザー提供のiPhone実機TestFlight画面",
+      "version": "1.0",
+      "build": "23",
+      "capture_date": "2026-11-03（ユーザー指定フォルダに基づく）",
+      "processed_date": "2026-11-03",
+      "device_model": "未提供",
+      "os_version": "未提供",
+      "appearance": "ライト表示を画像で確認",
+      "dynamic_type": "設定値未提供",
+      "screen_state": "出発前、対象4個・対象外0個、準備3/4。"
+    }
   },
   {
     "asset": "return-phone",
-    "source": "screenshot/appstore-v2/04-return-check-final.png",
-    "source_sha256": "d847463cd8fd41a7d6b0c341647b31bddcb653f5e4657abf77b694fab0541acb",
+    "source": "screenshot/mottaka-guide-captures/20261103/4 持ち帰りチェック画面.png",
+    "source_sha256": "f4e44d2067afa97f23e8c1a33cb398445f83104b3f969ebe95094dbdb8f22536",
     "original_size": [
-      1206,
-      2622
+      1216,
+      2640
     ],
-    "processing": "WebP変換・縦横比を保持した縮小のみ。切り抜き・画像内注釈・画面内容の改変なし。"
+    "processing": "WebP変換・縦横比を保持した縮小のみ。切り抜き・合成・画像内改変なし。",
+    "capture": {
+      "source": "ユーザー提供のiPhone実機TestFlight画面",
+      "version": "1.0",
+      "build": "23",
+      "capture_date": "2026-11-03（ユーザー指定フォルダに基づく）",
+      "processed_date": "2026-11-03",
+      "device_model": "未提供",
+      "os_version": "未提供",
+      "appearance": "ライト表示を画像で確認",
+      "dynamic_type": "設定値未提供",
+      "screen_state": "持ち帰り確認、対象4個・対象外0個、持ち帰り確認3/4。上部リスト名一部隠れ。"
+    }
   },
   {
     "asset": "plus-phone",
@@ -71,14 +95,25 @@
   },
   {
     "asset": "01-new-list-form",
-    "source": "screenshot/mottaka-guide-captures/01-new-list-form.png",
-    "source_sha256": "95f5e007f0ba1d5e2ce143b884f9df159ebdc1b18a5d030765d541e1920c8c0e",
+    "source": "screenshot/mottaka-guide-captures/20261103/1 新規リスト作成画面.png",
+    "source_sha256": "6ce7629507679b15af31e301b447b37d797a97eb90939a64c0fb661856261402",
     "original_size": [
-      941,
-      2048
+      1216,
+      2640
     ],
-    "processing": "WebP変換・縦横比を保持した縮小のみ。元PNG変更なし。切り抜き・UI合成・画面内容の改変なし。",
-    "capture_origin": "ユーザー撮影・提供画像"
+    "processing": "WebP変換・縦横比を保持した縮小のみ。切り抜き・合成・画像内改変なし。",
+    "capture": {
+      "source": "ユーザー提供のiPhone実機TestFlight画面",
+      "version": "1.0",
+      "build": "23",
+      "capture_date": "2026-11-03（ユーザー指定フォルダに基づく）",
+      "processed_date": "2026-11-03",
+      "device_model": "未提供",
+      "os_version": "未提供",
+      "appearance": "ライト表示を画像で確認",
+      "dynamic_type": "設定値未提供",
+      "screen_state": "リスト名：週末のピクニック、メモ：里山。保存前、キーボード非表示。"
+    }
   },
   {
     "asset": "02-day-before",
@@ -115,36 +150,69 @@
   },
   {
     "asset": "05-exclude-before",
-    "source": "screenshot/mottaka-guide-captures/05-exclude-before.png",
-    "source_sha256": "31ccea702822d69294c2f207b0c88fe49bb14d5966e792e892943dda64854cdd",
+    "source": "screenshot/mottaka-guide-captures/20261103/5-1 対象外操作（操作前).png",
+    "source_sha256": "c275e42b9e98e69ddcf84730a0483d90735614b935b243a2ef48e7bc3ddf076b",
     "original_size": [
-      941,
-      2048
+      1216,
+      2640
     ],
-    "processing": "WebP変換・縦横比を保持した縮小のみ。元PNG変更なし。切り抜き・UI合成・画面内容の改変なし。",
-    "capture_origin": "ユーザー撮影・提供画像"
+    "processing": "WebP変換・縦横比を保持した縮小のみ。切り抜き・合成・画像内改変なし。",
+    "capture": {
+      "source": "ユーザー提供のiPhone実機TestFlight画面",
+      "version": "1.0",
+      "build": "23",
+      "capture_date": "2026-11-03（ユーザー指定フォルダに基づく）",
+      "processed_date": "2026-11-03",
+      "device_model": "未提供",
+      "os_version": "未提供",
+      "appearance": "ライト表示を画像で確認",
+      "dynamic_type": "設定値未提供",
+      "screen_state": "出発前、対象4個・対象外0個、全件未確認。"
+    }
   },
   {
     "asset": "06-exclude-swipe",
-    "source": "screenshot/mottaka-guide-captures/06-exclude-swipe.png",
-    "source_sha256": "3e9edecd923c6420517aa038d99644ddce56e232fd5852626f6d41b071696503",
+    "source": "screenshot/mottaka-guide-captures/20261103/5-2 対象外操作（スワイプ中）.png",
+    "source_sha256": "df92456eb9ad7b42b1f545ff3d10acde40c3d882972b95d712a65fee2f259265",
     "original_size": [
-      941,
-      2048
+      1216,
+      2640
     ],
-    "processing": "WebP変換・縦横比を保持した縮小のみ。元PNG変更なし。切り抜き・UI合成・画面内容の改変なし。",
-    "capture_origin": "ユーザー撮影・提供画像"
+    "processing": "WebP変換・縦横比を保持した縮小のみ。切り抜き・合成・画像内改変なし。",
+    "capture": {
+      "source": "ユーザー提供のiPhone実機TestFlight画面",
+      "version": "1.0",
+      "build": "23",
+      "capture_date": "2026-11-03（ユーザー指定フォルダに基づく）",
+      "processed_date": "2026-11-03",
+      "device_model": "未提供",
+      "os_version": "未提供",
+      "appearance": "ライト表示を画像で確認",
+      "dynamic_type": "設定値未提供",
+      "screen_state": "カメラを左スワイプ中。対象4個・対象外0個、全件未確認。"
+    }
   },
   {
     "asset": "07-exclude-after",
-    "source": "screenshot/mottaka-guide-captures/07-exclude-after.png",
-    "source_sha256": "4df0346fb21629075235eabe086af45dc52663b2335e042231c4ee42b99bedf6",
+    "source": "screenshot/mottaka-guide-captures/20261103/5-3 対象外操作（操作後）.png",
+    "source_sha256": "945999123e2d38ce6b62e9e72c470778bedd78e6c64492a51fee6c85473850ec",
     "original_size": [
-      941,
-      2048
+      1216,
+      2640
     ],
-    "processing": "WebP変換・縦横比を保持した縮小のみ。元PNG変更なし。切り抜き・UI合成・画面内容の改変なし。",
-    "capture_origin": "ユーザー撮影・提供画像"
+    "processing": "WebP変換・縦横比を保持した縮小のみ。切り抜き・合成・画像内改変なし。",
+    "capture": {
+      "source": "ユーザー提供のiPhone実機TestFlight画面",
+      "version": "1.0",
+      "build": "23",
+      "capture_date": "2026-11-03（ユーザー指定フォルダに基づく）",
+      "processed_date": "2026-11-03",
+      "device_model": "未提供",
+      "os_version": "未提供",
+      "appearance": "ライト表示を画像で確認",
+      "dynamic_type": "設定値未提供",
+      "screen_state": "カメラが対象外。対象3個・対象外1個、準備0/3。"
+    }
   },
   {
     "asset": "guide-backup-settings",
@@ -159,14 +227,25 @@
   },
   {
     "asset": "guide-item-create",
-    "source": "screenshot/guide/guide-item-create.png",
-    "source_sha256": "cfd2d4b7fccb90f1151355a468673869523dd46af22d41c8fde4f555dd2eb65b",
+    "source": "screenshot/mottaka-guide-captures/20261103/2 新規持ち物作成画面.png",
+    "source_sha256": "4c8ede21febba922b5f979c35e7f27a4a91329abb4af3e9264fbb3f128bad81a",
     "original_size": [
-      1206,
-      2622
+      1216,
+      2640
     ],
-    "processing": "WebP縮小・圧縮のみ。元PNG・画面内容・縦横比を保持。",
-    "capture_origin": "ユーザーによるiPhone実機撮影"
+    "processing": "WebP変換・縦横比を保持した縮小のみ。切り抜き・合成・画像内改変なし。",
+    "capture": {
+      "source": "ユーザー提供のiPhone実機TestFlight画面",
+      "version": "1.0",
+      "build": "23",
+      "capture_date": "2026-11-03（ユーザー指定フォルダに基づく）",
+      "processed_date": "2026-11-03",
+      "device_model": "未提供",
+      "os_version": "未提供",
+      "appearance": "ライト表示を画像で確認",
+      "dynamic_type": "設定値未提供",
+      "screen_state": "持ち物名：水筒、メモ：冷たいお茶を入れる。保存前、キーボード非表示。"
+    }
   },
   {
     "asset": "guide-plus-folder",
@@ -200,5 +279,49 @@
     ],
     "processing": "WebP縮小・圧縮のみ。元PNG・画面内容・縦横比を保持。",
     "capture_origin": "ユーザーによるiPhone実機撮影"
+  },
+  {
+    "asset": "state-help-departure",
+    "source": "screenshot/mottaka-guide-captures/20261103/6 出発前の状態説明画面.png",
+    "source_sha256": "e809c5fcf7d2f58ade89f1100aa8bbef90a93b9cd7eb401ce24e2d650997d970",
+    "original_size": [
+      1216,
+      2640
+    ],
+    "processing": "WebP変換・縦横比を保持した縮小のみ。切り抜き・合成・画像内改変なし。",
+    "capture": {
+      "source": "ユーザー提供のiPhone実機TestFlight画面",
+      "version": "1.0",
+      "build": "23",
+      "capture_date": "2026-11-03（ユーザー指定フォルダに基づく）",
+      "processed_date": "2026-11-03",
+      "device_model": "未提供",
+      "os_version": "未提供",
+      "appearance": "ライト表示を画像で確認",
+      "dynamic_type": "設定値未提供",
+      "screen_state": "出発前モードの状態の説明シート。"
+    }
+  },
+  {
+    "asset": "state-help-return",
+    "source": "screenshot/mottaka-guide-captures/20261103/7 持ち帰りの状態説明画面.png",
+    "source_sha256": "6ed49f0ede8b1838432c467442cde7bb65c9f54c5c1f21e5264cbf4280e71afd",
+    "original_size": [
+      1216,
+      2640
+    ],
+    "processing": "WebP変換・縦横比を保持した縮小のみ。切り抜き・合成・画像内改変なし。",
+    "capture": {
+      "source": "ユーザー提供のiPhone実機TestFlight画面",
+      "version": "1.0",
+      "build": "23",
+      "capture_date": "2026-11-03（ユーザー指定フォルダに基づく）",
+      "processed_date": "2026-11-03",
+      "device_model": "未提供",
+      "os_version": "未提供",
+      "appearance": "ライト表示を画像で確認",
+      "dynamic_type": "設定値未提供",
+      "screen_state": "持ち帰り確認モードの状態の説明シート。"
+    }
   }
 ]
